@@ -107,11 +107,11 @@ Project root
 README.md  
 
 data  
-input_data.py  
+> input_data.py  
 
 src  
-model_definition.py  
-solver_run.py  
+> model_definition.py  
+> solver_run.py  
 
 Each file has a single responsibility.
 
@@ -131,8 +131,12 @@ Follow these steps to run the project.
 > 4. Install and verify the GLPK solver  
 > 5. Mark the data and src folders as Sources Root  
 > 6. Open solver_run.py  
-> 7. Run the script  
+> 7. Run the script
 
+> Run the optimization model from the project root using the following command:
+```
+python src/solver_run.py   
+```
 If the setup is correct, the console will display.
 
 > 1. Confirmation that an optimal solution was found  
